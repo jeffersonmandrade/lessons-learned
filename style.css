@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  top: 0;
+  top: 0px;
   position: top;
   background-color: green;
   margin: 0;
@@ -78,4 +78,8 @@ table {
 
 div {
   margin-top: 300px;
+}
+
+h1 {
+  top: 0px;
 }
