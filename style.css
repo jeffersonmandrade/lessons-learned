@@ -24,15 +24,16 @@ header {
 
 }
 
-ul, ol{
+ ul, ol{
   padding-left: 20px;
   margin-top: 10px;
-  display: inline-block;
+
   font-size: 15px;
 }
 
 
 article {
+  line-height: 18px;
   font-family: Arial, Helvetica, sans-serif;
   color:black;
   font-size: 20px;
@@ -45,4 +46,17 @@ aside{
 
 nav {
   margin-top: 20px;
+}
+.lado-esquerdo {
+display: inline-block;
+}
+.lado-direito {
+display: inline-block;
+}
+table{
+  color: black;
+  padding: 5px;
+  padding-left: 5px;
+  margin-top: 20px;
+  border-style: groove;
 }
