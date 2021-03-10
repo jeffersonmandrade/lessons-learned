@@ -9,23 +9,21 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-header {
+header , h1{
+  margin: 0px;
+  padding: 0px;
   top: 0px;
-  position: top;
   background-color: green;
-  margin: 0;
-  padding: 0;
   width: max-content;
 }
 
 #minha_foto {
-  padding-top: 100px;
-  margin-top: 100px;
+  padding-top: 20px;
+  margin-top: 20px;
   border-radius: 25%;
   display: inline-block;
   max-width: 30%;
-  float: right;
-
+  float: right:
 }
 
 ul, ol {
@@ -78,8 +76,4 @@ table {
 
 div {
   margin-top: 300px;
-}
-
-h1 {
-  top: 0px;
 }
