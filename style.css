@@ -9,12 +9,13 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-header , h1{
+header {
+  position: fixed;
   margin: 0px;
   padding: 0px;
   top: 0px;
   background-color: green;
-  width: max-content;
+  width: 1366px;
 }
 
 #minha_foto {
